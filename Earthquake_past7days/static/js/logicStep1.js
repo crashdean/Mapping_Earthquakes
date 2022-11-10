@@ -108,10 +108,10 @@ let usgsEarthquakes = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary
 // Grabbing our GeoJSON data.
 
 // Create a style for the lines.
-let myStyle = {
-  color: "#ffffa1",
-  weight: 2
-}
+// let myStyle = {
+//   color: "#ffffa1",
+//   weight: 2
+// }
 
 // Retrieve the earthquake GeoJSON data.
 d3.json(usgsEarthquakes).then(function(data) {
